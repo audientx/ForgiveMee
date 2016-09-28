@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1972 2.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="ENc-ME-cIb">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="标题" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s55-m0-lV3">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Hc7-zr-bX1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="内容" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FmG-q8-Bua">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="236" id="uBa-bj-shH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FmG-q8-Bua" firstAttribute="top" secondItem="s55-m0-lV3" secondAttribute="bottom" constant="8" id="3wl-ld-xB3"/>
+                            <constraint firstItem="ENc-ME-cIb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CM6-Ey-s6T"/>
+                            <constraint firstItem="ENc-ME-cIb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KWt-Sp-qqj"/>
+                            <constraint firstAttribute="trailing" secondItem="FmG-q8-Bua" secondAttribute="trailing" constant="16" id="Z69-fk-tK7"/>
+                            <constraint firstItem="FmG-q8-Bua" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="bYw-a0-TXe"/>
+                            <constraint firstItem="s55-m0-lV3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="d5X-jC-K3T"/>
+                            <constraint firstItem="s55-m0-lV3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="91" id="icM-34-vju"/>
+                            <constraint firstAttribute="trailing" secondItem="ENc-ME-cIb" secondAttribute="trailing" id="kxo-pJ-yPI"/>
+                            <constraint firstAttribute="trailing" secondItem="s55-m0-lV3" secondAttribute="trailing" constant="16" id="uWn-3f-ZTe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ENc-ME-cIb" secondAttribute="bottom" id="vFh-rh-5yN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="80.50974512743629"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_1972 2.PNG" width="750" height="1294"/>
+    </resources>
+</document>
